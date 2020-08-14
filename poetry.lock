@@ -434,7 +434,7 @@ description = "Show coverage stats online via coveralls.io"
 name = "coveralls"
 optional = false
 python-versions = ">= 3.5"
-version = "2.1.1"
+version = "2.1.2"
 
 [package.dependencies]
 coverage = ">=4.1,<6.0"
@@ -3090,7 +3090,7 @@ spacy = ["spacy"]
 transformers = ["transformers"]
 
 [metadata]
-content-hash = "ea58e7e93693e2027a6c2bd7b6f0131472a8367df4962b9ca676a5388c95350e"
+content-hash = "09fa888a895f65e5c010f36a91858a3d324c8ca909024a05a3539448f9b04c00"
 python-versions = ">=3.6,<3.9"
 
 [metadata.files]
@@ -3316,8 +3316,8 @@ coverage = [
     {file = "coverage-5.2.1.tar.gz", hash = "sha256:a34cb28e0747ea15e82d13e14de606747e9e484fb28d63c999483f5d5188e89b"},
 ]
 coveralls = [
-    {file = "coveralls-2.1.1-py2.py3-none-any.whl", hash = "sha256:3726d35c0f93a28631a003880e2aa6cc93c401d62bc6919c5cb497217ba30c55"},
-    {file = "coveralls-2.1.1.tar.gz", hash = "sha256:afe359cd5b350e1b3895372bda32af8f0260638c7c4a31a5c0f15aa6a96f40d9"},
+    {file = "coveralls-2.1.2-py2.py3-none-any.whl", hash = "sha256:b3b60c17b03a0dee61952a91aed6f131e0b2ac8bd5da909389c53137811409e1"},
+    {file = "coveralls-2.1.2.tar.gz", hash = "sha256:4430b862baabb3cf090d36d84d331966615e4288d8a8c5957e0fd456d0dd8bd6"},
 ]
 cryptography = [
     {file = "cryptography-3.0-cp27-cp27m-macosx_10_10_x86_64.whl", hash = "sha256:ab49edd5bea8d8b39a44b3db618e4783ef84c19c8b47286bf05dfdb3efb01c83"},
