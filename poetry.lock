@@ -1771,12 +1771,12 @@ category = "dev"
 description = "Create Python API documentation in Markdown format."
 name = "pydoc-markdown"
 optional = false
-python-versions = "*"
-version = "3.3.0.post1"
+python-versions = ">=3.5.0,<4.0.0"
+version = "3.4.0"
 
 [package.dependencies]
-PyYAML = ">=5.3,<6.0.0"
-click = ">=7.0,<8.0.0"
+PyYAML = ">=5.3.0,<6.0.0"
+click = ">=7.0.0,<8.0.0"
 docspec = ">=0.2.0,<0.3.0"
 docspec-python = ">=0.0.7,<0.1.0"
 "nr.collections" = ">=0.0.1,<0.1.0"
@@ -1788,11 +1788,6 @@ requests = ">=2.23.0,<3.0.0"
 six = ">=1.11.0,<2.0.0"
 toml = ">=0.10.1,<1.0.0"
 watchdog = ">=0.10.2,<1.0.0"
-
-[package.source]
-reference = "rasa-pypi"
-type = "legacy"
-url = "https://pypi.rasa.com/simple"
 
 [[package]]
 category = "main"
@@ -3090,7 +3085,8 @@ spacy = ["spacy"]
 transformers = ["transformers"]
 
 [metadata]
-content-hash = "ea58e7e93693e2027a6c2bd7b6f0131472a8367df4962b9ca676a5388c95350e"
+content-hash = "076adcb22849e04f250fdb0ee40039a12cc1f099447c32bd63926143bec390b3"
+lock-version = "1.0"
 python-versions = ">=3.6,<3.9"
 
 [metadata.files]
@@ -4063,7 +4059,10 @@ pycparser = [
     {file = "pycparser-2.20-py2.py3-none-any.whl", hash = "sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705"},
     {file = "pycparser-2.20.tar.gz", hash = "sha256:2d475327684562c3a96cc71adf7dc8c4f0565175cf86b6d7a404ff4c771f15f0"},
 ]
-pydoc-markdown = []
+pydoc-markdown = [
+    {file = "pydoc-markdown-3.4.0.tar.gz", hash = "sha256:f09f38190c11711c68e5a6b965888aec18153dd91a98c0c24ca9e42621b39486"},
+    {file = "pydoc_markdown-3.4.0-py3-none-any.whl", hash = "sha256:208574308b7887f3dfc58959af954cc71b482628be876be00cd5ae5441e321ac"},
+]
 pydot = [
     {file = "pydot-1.4.1-py2.py3-none-any.whl", hash = "sha256:67be714300c78fda5fd52f79ec994039e3f76f074948c67b5ff539b433ad354f"},
     {file = "pydot-1.4.1.tar.gz", hash = "sha256:d49c9d4dd1913beec2a997f831543c8cbd53e535b1a739e921642fe416235f01"},
