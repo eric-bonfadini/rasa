@@ -1292,7 +1292,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "moto"
-version = "2.2.6"
+version = "2.2.7"
 description = "A library that allows your python tests to easily mock out the boto library"
 category = "dev"
 optional = false
@@ -3159,7 +3159,7 @@ transformers = ["transformers"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7,<3.9"
-content-hash = "a4b4dcfc01a819cf42a36df78152580a03e380d0249cc5b9c334feb5147d4d0f"
+content-hash = "53edaffa0d60db5ea4732317e10edeae1a8d2fece5e5090d9dbfc3c1b11caeb4"
 
 [metadata.files]
 absl-py = [
@@ -4040,8 +4040,8 @@ more-itertools = [
     {file = "more_itertools-8.9.0-py3-none-any.whl", hash = "sha256:70401259e46e216056367a0a6034ee3d3f95e0bf59d3aa6a4eb77837171ed996"},
 ]
 moto = [
-    {file = "moto-2.2.6-py2.py3-none-any.whl", hash = "sha256:e86b0d92bc5f80802a8ae0f338a4fdac15dab82c54eb12db93b356b69407effc"},
-    {file = "moto-2.2.6.tar.gz", hash = "sha256:21c838b63f44e24b9b5015a2cdcc5be7c1e1004e58a69fb7cac71383bce34535"},
+    {file = "moto-2.2.7-py2.py3-none-any.whl", hash = "sha256:461955aaccd257151591b1e36c9b2e7ddf7f42e17056f15ccbd64d0eb618742d"},
+    {file = "moto-2.2.7.tar.gz", hash = "sha256:f5d131d0be71890809c94556930f865d25814e2d2e29d74fab749f963a11b518"},
 ]
 msrest = [
     {file = "msrest-0.6.21-py2.py3-none-any.whl", hash = "sha256:c840511c845330e96886011a236440fafc2c9aff7b2df9c0a92041ee2dee3782"},
